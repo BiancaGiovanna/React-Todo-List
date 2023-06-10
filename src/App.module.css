@@ -1,0 +1,10 @@
+.main {
+  min-height: 75vh;
+  text-align: center;
+  padding: 32px;
+  background-color: #343A46;
+}
+
+.main h2 {
+  margin-bottom: 16px;
+}
