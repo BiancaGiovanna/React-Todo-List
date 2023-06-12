@@ -43,6 +43,7 @@ function App() {
     });
 
     setTaskList(udatedItems);
+
     hideOrShowModal(false);
   };
 

@@ -13,10 +13,7 @@ const Modal = ({ children }: Props) => {
   return (
     <div id="modal" className="hide">
       <div className={styles.fade} onClick={closeModal}></div>
-      <div className={styles.modal}>
-        <h2>Texto</h2>
-        {children}
-      </div>
+      <div className={styles.modal}>{children}</div>
     </div>
   );
 };
